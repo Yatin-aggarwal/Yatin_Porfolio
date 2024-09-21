@@ -72,7 +72,7 @@ export function Home (){
                                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
                                </svg>
                                </a>
-                               <a href="">
+                               <a href="https://yatin-aggarwal.vercel.app/">
                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40"
                                         color="#9b9b9b" fill="none">
                                        <path
