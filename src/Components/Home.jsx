@@ -3,10 +3,10 @@ import {Navbar} from "./Navbar.jsx";
 export function Home (){
     return(
         <>
-           <div className="h-full">
+           <div className="sm:overflow-hidden overscroll-none md:h-full sm:h-dvh">
 
-               <div className="h-[92%] flex flex-row">
-                   <div className="text-amber-50 w-1/2 text-5xl font-semibold">
+               <div className="h-[92%] flex flex-row sm:justify-center sm:w-full">
+                   <div className="md:static sm:absolute sm:w-full sm:flex sm:justify-center text-amber-50 md:w-1/2 md:text-5xl sm:text-2xl font-semibold">
                        <div className="pl-[6%] pt-[15%]">
                            <div className="pb-[1%]">
                                Hello,
@@ -22,7 +22,7 @@ export function Home (){
                            <div className="pb-[1%] ">
                                Ml enthusiast
                            </div>
-                           <div className="flex gap-[2%] pt-[4%]">
+                           <div className="flex gap-[2%] pt-[4%] sm:mb-[20%] md:mb-[3%] sm:mt[3%]">
                                <a href="mailto:yatin.aggarwal033@gmail.com">
                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40"
                                         color="#9b9b9b" fill="none">
@@ -90,20 +90,20 @@ export function Home (){
                                <a href={"https://www.kaggle.com/yatinaggarwal033"} className="text-[#9b9b9b] text-[85%]">K</a>
 
                            </div>
-                           <a href="https://onedrive.live.com/download?resid=869675663ADDBE%21779&authkey=!AGpJM7E_l1-oT7I&em=2">
+                           <a href="https://onedrive.live.com/download?resid=869675663ADDBE%21779&authkey=!AGpJM7E_l1-oT7I&em=2" className="sm:mt[50%]">
                                <button
-                                   className="mt-[5%]   rounded p-[0.2%] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+                                   className="mt-[5%]  sm:h:full sm:w-[60%] md:w-[30%] rounded p-[0.2%] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
                                    <div
-                                       className="h-[100%] text-xl rounded w-[100%] bg-[#0B1224] p-[5%] hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Download
+                                       className="sm:p-[15%]  md:h-[100%] text-xl rounded sm:w-[99%] sm:h-[99%] md:w-[100%] bg-[#0B1224] md:p-[5%] hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Download
                                        Resume
                                    </div>
                                </button>
                            </a>
                        </div>
                    </div>
-                   <div className={"  text-amber-50  pt-[6%] w-[50%]"}>
+                   <div className={" sm:invisible md:visible text-amber-50  pt-[6%] w-[50%] h-full"}>
                        <div
-                           className="ml-[10%] w-[80%]   h-[8%] flex items-center pl-[2%] rounded-t border-2 border-b-[#181A4B]">
+                           className="  ml-[10%] w-[80%]   h-[8%] flex items-center pl-[2%] rounded-t border-2 border-b-[#181A4B]">
                            <button disabled className="bg-rose-400 mr-[2%] rounded-full h-3 w-3"></button>
                            <button disabled className="bg-orange-600 mr-[2%] rounded-full h-3 w-3"></button>
                            <button disabled className="bg-green-500 mr-[2%] rounded-full h-3 w-3"></button>

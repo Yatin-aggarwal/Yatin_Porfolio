@@ -32,38 +32,38 @@ export function Skills(){
             <div className="overscroll-none flex flex-col">
                 <div className="text-amber-50 flex justify-center text-2xl font-bold pt-[2%]">Programming Languages
                 </div>
-                <div className="flex flex-row  justify-center gap-[3%] mt-[1%]">
-                    <div className=" bg-[#121e3d]  w-[6%] flex rounded flex-col  ">
+                <div className="flex flex-row sm:flex-wrap md:flex-nowrap  justify-center gap-[3%] mt-[1%]">
+                    <div className=" bg-[#121e3d] sm:w-[15%] md:w-[6%] flex rounded flex-col  ">
                         <div className="h-full w-[100%] flex px-[15%] items-center "><img src={C} width="100%"/></div>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%]">C++</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[6%] flex rounded flex-col">
+                    <div className=" bg-[#121e3d]  sm:w-[15%] md:w-[6%] flex rounded flex-col">
                         <img src={Python} width="100%"/>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%]">Python</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[6%] flex rounded flex-col">
+                    <div className=" bg-[#121e3d]  sm:w-[15%] md:w-[6%] flex rounded flex-col">
                         <img src={JS} width="100%"/>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%]">JavaScript</div>
                     </div>
                 </div>
-                <div className="text-amber-50 flex justify-center text-2xl font-bold pt-[2%]">ML Libraries
+                <div className="text-amber-50 flex justify-center text-2xl font-bold pt-[2%] ">ML Libraries
                 </div>
-                <div className="flex flex-row  justify-center gap-[3%] mt-[1%]">
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col  ">
+                <div className="md:flex  md:flex-row sm:grid sm:grid-cols-5 w-full  justify-center sm:gap-[1%] md:gap-[3%] mt-[1%]">
+                    <div className=" bg-[#121e3d] sm:w-full md:w-[7%]  flex rounded flex-col   ">
                         <div className="px-[14%] "><img src={Sklearn} width="100%"/>
                         </div>
                         <div className=" w-full text-amber-50 flex  mb-[2%] justify-center">Sci-Kit Learn</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]  sm:w-full md:w-[7%] flex rounded flex-col justify-center ">
                         <img src={Hg} width="100%" className="px-[15%] "/>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">HuggingFace</div>
 
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col">
+                    <div className=" bg-[#121e3d] sm:w-full md:w-[7%] flex rounded flex-col">
                         <img src={Torch} width="100%" className="px-[14%]"/>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%]">Pytorch</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d] sm:w-full md:w-[7%] flex rounded flex-col justify-center ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Pandas}
                                                                                                          width="80%"
                                                                                                          className=""/>
@@ -71,7 +71,7 @@ export function Skills(){
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Pandas</div>
 
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d] sm:w-full md:w-[7%] flex rounded flex-col justify-center ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Numpy}
                                                                                                          width="80%"
                                                                                                          className=""/>
@@ -79,7 +79,7 @@ export function Skills(){
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Numpy</div>
 
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]  sm:w-full md:w-[7%] flex rounded flex-col justify-center sm:col-start-2 ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={CV}
                                                                                                          width="80%"
                                                                                                          className=""/>
@@ -87,7 +87,7 @@ export function Skills(){
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Open CV</div>
 
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]    sm:w-full md:w-[7%] flex rounded flex-col justify-center ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img
                             src={Matplotlib}
                             width="80%"
@@ -96,7 +96,7 @@ export function Skills(){
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Matplotlib</div>
 
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]   sm:w-full md:w-[7%] flex rounded flex-col justify-center ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Tf}
                                                                                                          width="80%"
                                                                                                          className=""/>
@@ -109,24 +109,24 @@ export function Skills(){
                     Frameworks
                 </div>
                 <div className="bg-[#0B1224] flex flex-row  justify-center gap-[3%] mt-[1%]">
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col  ">
+                    <div className=" bg-[#121e3d]   sm:w-[18%] md:w-[7%] flex rounded flex-col  ">
                         <div className="h-full w-[100%] flex px-[14%] items-center "><img src={html} width="100%"/>
                         </div>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%]">HTML</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]   sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center ">
                         <img src={CSS} width="100%" className="px-[14%] "/>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">CSS</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]   sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center ">
                         <img src={REACT} width="100%" className="px-[14%] "/>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">React</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]  sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center ">
                         <img src={Tailwind} width="100%" className=" "/>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Tailwind</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]   sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center ">
                         <img src={Bootstrap} width="100%" className=""/>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Bootstrap</div>
                     </div>
@@ -135,34 +135,34 @@ export function Skills(){
                     Libraries
                 </div>
                 <div className="bg-[#0B1224] flex flex-row  justify-center gap-[3%] pt-[1%]">
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col  ">
+                    <div className=" bg-[#121e3d]  sm:w-[18%] md:w-[7%] flex rounded flex-col  ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Node}
                                                                                                          width="80%"/>
                         </div>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%]">Node Js</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center  ">
+                    <div className=" bg-[#121e3d]   sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center  ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Fastapi}
                                                                                                          width="85%"
                                                                                                          className="px-[7%] "/>
                         </div>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">FastApi</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col  ">
+                    <div className=" bg-[#121e3d]   sm:w-[18%] md:w-[7%] flex rounded flex-col  ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Gradio}
                                                                                                          width="100%"
                                                                                                          className=" "/>
                         </div>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Gradio</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]  sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Docker}
                                                                                                          width="100%"
                                                                                                          className=" "/>
                         </div>
                         <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Docker</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]  sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Git}
                                                                                                          width="80%"
                                                                                                          className=""/>
@@ -173,26 +173,26 @@ export function Skills(){
                 <div className="bg-[#0B1224] text-amber-50 flex justify-center text-2xl font-bold pt-[2%]">Databases
                 </div>
                 <div className="bg-[#0B1224] flex flex-row  justify-center gap-[3%] pt-[1%] ">
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col  ">
+                    <div className=" bg-[#121e3d]   sm:w-[18%] md:w-[7%] flex rounded flex-col  ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Mongo}
                                                                                                          width="100%"
                                                                                                          className=" "/>
                         </div>
-                        <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Gradio</div>
+                        <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Mong Db</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]   sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Mysql}
                                                                                                          width="80%"
                                                                                                          className=" "/>
                         </div>
-                        <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Docker</div>
+                        <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Mysql</div>
                     </div>
-                    <div className=" bg-[#121e3d]  w-[7%] flex rounded flex-col justify-center ">
+                    <div className=" bg-[#121e3d]  sm:w-[18%] md:w-[7%] flex rounded flex-col justify-center ">
                         <div className="h-full w-[100%] flex px-[14%] items-center justify-center "><img src={Firebase}
                                                                                                          width="80%"
                                                                                                          className=""/>
                         </div>
-                        <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">Git</div>
+                        <div className=" w-full text-amber-50 flex justify-center mb-[2%] px-[2%] ">FireBase</div>
                     </div>
                 </div>
                 <div className="h-[2%]  text-[#0B1224]"> jjd</div>
