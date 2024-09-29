@@ -3,14 +3,14 @@ import img from "/src/assets/yatin.jpg"
 export function About (){
     return(
         <>
-            <div className="font-bold w-full text-4xl pt-[2%]  flex text-amber-50 justify-center ">
-                About me
+            <div className="font-bold w-full text-4xl pt-[1.6%]  flex text-amber-50 justify-center ">
+                <div className="bg-[#121e3d] p-[0.7%] rounded-2xl" > About me</div>
             </div>
-            <div className=" flex sm:flex-col md:flex-row w-full sm:justify-center  ">
+            <div className=" flex sm:flex-col md:flex-row w-full sm:justify-center pb-[1%]  ">
                 <div className="md:w-[45%] sm:w-full  ">
                     <img src={img}
-                      height="85%" width="90%" className="  mt-[6%] ml-[5%] rounded-2xl  "/></div>
-                <div className="md:w-[50%] sm:w-[100%] sm:grid sm:justify-center sm:justify-center  text-amber-50 pt-[3%] pr-[2%]">
+                      height="85%" width="90%" className="  mt-[4%] ml-[5%] rounded-2xl  "/></div>
+                <div className="md:w-[50%] sm:w-[100%] sm:grid  sm:justify-center  text-amber-50 pt-[1%] pr-[1.7%]">
                     <div className="w-full  ">
                         <h1 className="text-3xl font-bold">Hello!</h1>
                     </div>

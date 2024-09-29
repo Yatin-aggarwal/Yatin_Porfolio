@@ -92,7 +92,7 @@ export function Home (){
                            </div>
                            <a href="https://onedrive.live.com/download?resid=869675663ADDBE%21779&authkey=!AGpJM7E_l1-oT7I&em=2" className="sm:mt[50%]">
                                <button
-                                   className="mt-[5%]  sm:h:full sm:w-[60%] md:w-[30%] rounded p-[0.2%] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+                                   className="mt-[5%] bg-[#0B1219]  sm:h:full sm:w-[60%] md:w-[30%] rounded p-[0.2%] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
                                    <div
                                        className="sm:p-[15%]  md:h-[100%] text-xl rounded sm:w-[99%] sm:h-[99%] md:w-[100%] bg-[#0B1224] md:p-[5%] hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Download
                                        Resume
@@ -103,12 +103,12 @@ export function Home (){
                    </div>
                    <div className={" sm:invisible md:visible text-amber-50  pt-[6%] w-[50%] h-full"}>
                        <div
-                           className="  ml-[10%] w-[80%]   h-[8%] flex items-center pl-[2%] rounded-t border-2 border-b-[#181A4B]">
+                           className="  ml-[10%] w-[80%]    h-[8%] flex items-center pl-[2%] rounded-t border-2 border-b-[#181A4B]">
                            <button disabled className="bg-rose-400 mr-[2%] rounded-full h-3 w-3"></button>
                            <button disabled className="bg-orange-600 mr-[2%] rounded-full h-3 w-3"></button>
                            <button disabled className="bg-green-500 mr-[2%] rounded-full h-3 w-3"></button>
                        </div>
-                       <div className="font-medium font-mono ml-[10%] w-[80%]  h-[80%] flex flex-col pl-[2%]  border-2 border-t-[#181A4B]  ">
+                       <div className=" font-medium font-mono ml-[10%] w-[80%]  h-[80%] flex flex-col pl-[2%]  border-2 border-t-[#181A4B]  ">
                            <div className="w-full"><span className="text-pink-500">const</span> coder <span
                                className="text-pink-500"> = </span> <span className="text-gray-500">&#123;</span></div>
                            <div className="w-full pl-[5%]">Name : <span className="text-gray-500">'</span><span
