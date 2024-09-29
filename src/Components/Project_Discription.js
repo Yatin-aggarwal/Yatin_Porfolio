@@ -1,7 +1,7 @@
 const Project_Discription= {
    Pixel_Prompt:{
        title:"Pixel Prompt",
-       content:"Pixel Prompt is a Generative AI project where anime character images are generated based on user-provided prompts. It follows a DCGAN (Deep Convolutional Generative Adversarial Network) approach for image generation. For prompt generation, LSTM (Long Short-Term Memory) is used to encode the prompts, which are then concatenated with random noise and fed into the generator. The discriminator receives both the generator's output and the user’s prompt encoding to distinguish between real and fake images. The project uses the Hugging Face dataset \"alfredplpl/anime-with-caption-cc0,\" which is approximately 21 GB in size and contains 15,000 images with corresponding prompts for supervised learning. Additionally, Pixel Prompt utilizes the \"openai-community/gpt2\" tokenizer from Hugging Face for handling textual inputs. ",
+       content:"Pixel Prompt is a Generative AI project where anime character images are generated based on user-provided prompts. It follows a DCGAN (Deep Convolutional Generative Adversarial Network) approach for image generation. For prompt generation, LSTMs is used to encode the prompts, which are then concatenated with random noise and fed into the generator. The discriminator receives both the generator's output and the user’s prompt encoding to distinguish between real and fake images. The project uses the Hugging Face dataset \"alfredplpl/anime-with-caption-cc0,\" which contains 15,000 images with corresponding prompts for supervised learning. Additionally, Pixel Prompt utilizes the \"openai-community/gpt2\" tokenizer from Hugging Face for handling textual inputs. ",
        github:'https://github.com/Yatin-aggarwal/Pixel_Prompt',
 
 
