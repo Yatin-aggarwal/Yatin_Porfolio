@@ -90,7 +90,7 @@ export function Home (){
                                <a href={"https://www.kaggle.com/yatinaggarwal033"} className="text-[#9b9b9b] text-[85%]">K</a>
 
                            </div>
-                           <a href="https://1drv.ms/b/c/00869675663addbe/Eb7dOmZ1loYggAALAwAAAAABeBrpi67gz731X7gKkDET6A?e=cHlPbA" className="sm:mt[50%]">
+                           <a href="https://1drv.ms/b/c/00869675663addbe/EUDvfGmztl5Pi7PyKQHAT-4B7QwMYNPmPxfMyFbCjm7efg?e=7XIGdQ" className="sm:mt[50%]">
                                <button
                                    className="mt-[5%] bg-[#0B1219]  sm:h:full sm:w-[60%] md:w-[30%] rounded p-[0.2%] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
                                    <div
